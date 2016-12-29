@@ -1,0 +1,22 @@
+@keyframes jump {
+  0%, 100% {
+    -webkit-animation-timing-function: cubic-bezier( 1.000,  1.000, 1.000, 1.000);
+    animation-timing-function: cubic-bezier(1.000,  1.000, 1.000, 1.000);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+  50% {
+    -webkit-animation-timing-function: cubic-bezier( 1.000, 1.000, 1.000, 1.000);
+    animation-timing-function: cubic-bezier(1.000,  1.000, 1.000, 1.000);
+    -webkit-transform: translate3d(0, -0.15rem, 0);
+    transform: translate3d(0, -0.15rem, 0);
+  }
+}
+
+.jump {
+  -webkit-animation-name: jump;
+  animation-name: jump;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
