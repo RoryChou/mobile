@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+
+    </style>
+</head>
+<body>
+<div class="swiper-container" id="outer-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide page-1">
+            <header>
+                <p>ZXIU 走秀网</p>
+            </header>
+
+            <div class="search">
+                <input type="text" placeholder="请输入搜索内容">
+            </div>
+
+            <div class="banner swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="img/banner.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="img/banner.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="img/banner.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="img/banner.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="main">
+                <ul>
+                    <li class="goods">
+                        <div class="pic">
+                            <img src="img/pic-1.png" alt="">
+                        </div>
+                        <div class="detail">
+                            <h3>0元抽大奖！走秀阿萨德加拉涉及asdasdasd到了卡机了深刻的加拉看似简单</h3>
+                            <div class="price">
+                                <span class="current">¥0</span>
+                                <span class="old">¥28880</span>
+                                <p class="off">0折</p>
+                            </div>
+                            <div class="add-cart">
+                                <img src="img/add-cart.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods">
+                        <div class="pic">
+                            <img src="img/pic-1.png" alt="">
+                        </div>
+                        <div class="detail">
+                            <h3>0元抽大奖！走秀阿萨德加拉涉及asdasdasd到了卡机了深刻的加拉看似简单</h3>
+                            <div class="price">
+                                <span class="current">¥0</span>
+                                <span class="old">¥28880</span>
+                                <p class="off">0折</p>
+                            </div>
+                            <div class="add-cart">
+                                <img src="img/add-cart.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods">
+                        <div class="pic">
+                            <img src="img/pic-1.png" alt="">
+                        </div>
+                        <div class="detail">
+                            <h3>0元抽大奖！走秀阿萨德加拉涉及asdasdasd到了卡机了深刻的加拉看似简单</h3>
+                            <div class="price">
+                                <span class="current">¥0</span>
+                                <span class="old">¥28880</span>
+                                <p class="off">0折</p>
+                            </div>
+                            <div class="add-cart">
+                                <img src="img/add-cart.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="goods">
+                        <div class="pic">
+                            <img src="img/pic-1.png" alt="">
+                        </div>
+                        <div class="detail">
+                            <h3>0元抽大奖！走秀阿萨德加拉涉及asdasdasd到了卡机了深刻的加拉看似简单</h3>
+                            <div class="price">
+                                <span class="current">¥0</span>
+                                <span class="old">¥28880</span>
+                                <p class="off">0折</p>
+                            </div>
+                            <div class="add-cart">
+                                <img src="img/add-cart.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="swiper-slide">分类</div>
+        <div class="swiper-slide">购物车</div>
+        <div class="swiper-slide page-4">
+            <header>
+                <p>我的秀</p>
+            </header>
+            <div class="self-info">
+                <div class="photo"></div>
+                <div class="details">
+                    <p>昵称：未知</p>
+                    <button class="sign-in">登录</button>
+                    <button class="sign-up">注册</button>
+                </div>
+                <div class="lists">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                我的订单
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                我的订单
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                我的订单
+                            </a>
+                        </li>
+                        <li class="last">
+                            <a href="#">
+                                我的订单
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">更多</div>
+    </div>
+</div>
+
+
+<script src="http://cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script>
+<script src="http://cdn.bootcss.com/Swiper/3.4.1/js/swiper.jquery.js"></script>
+<!--<script src="js/swiper.animate1.0.2.min.js"></script>-->
+<script src="js/rem.js"></script>
+<script>
+    $(function () {
+        new Swiper('.swiper-container',{
+
+        });
+        $('.add-cart').click(function () {
+            alert('已加入购物车')
+        });
+        $('.photo').click(function () {
+            console.log('change photo')
+        })
+    })
+</script>
+</body>
+</html>
